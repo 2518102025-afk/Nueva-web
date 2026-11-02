@@ -1,0 +1,46 @@
+CANCHA ABIERTA - FUTBOL REAL 2026/27
+==================================
+
+1) EXTRAER ZIP EN WINDOWS
+   - Haz clic derecho en el ZIP -> Extraer todo.
+   - Abre la carpeta extraida.
+   - Haz doble clic en index.html.
+
+2) CONSULTAR PARTIDOS REALES
+   - 01/11/2026: marcadores historicos verificados (no en directo).
+   - 03/11/2026 y 04/11/2026: partidos programados de Champions League.
+   - 05/11/2026: partidos programados de Europa League y Conference League.
+   - En otras fechas, la pagina intenta consultar el proveedor deportivo en linea.
+     Si el proveedor no responde, aparece un mensaje; no se inventan resultados.
+
+3) PUBLIQUE GRATIS EN GITHUB PAGES
+   - Cree un repositorio publico.
+   - Suba los ARCHIVOS descomprimidos, no el ZIP.
+   - index.html debe estar en la raiz del repositorio.
+   - Settings -> Pages -> Deploy from a branch -> main -> /(root).
+   - Abra la URL github.io que GitHub le muestre.
+
+4) FUNCIONES
+   - 19 competiciones reales, clubes reales de las ediciones seleccionadas.
+   - Selector de fecha y filtros por estado, region y competicion.
+   - Competiciones favoritas primero, favoritos de clubes.
+   - Ficha de partido abierta en Alineaciones.
+   - Ficha de equipo abierta en Partidos.
+   - Clasificaciones cuando las devuelve el servicio externo.
+   - Buscador, noticias y enlaces a fuentes oficiales, diseno movil, tema oscuro/claro.
+
+5) LIMITACIONES
+   - ESPNs endpoints publicos NO son una API oficial para desarrolladores.
+     Pueden fallar, dejar de responder, cambiar o tener restricciones legales.
+   - No hay panel administrador real ni base de datos en GitHub Pages.
+   - Noticias y fichajes no se inventan: se consultan portales oficiales.
+   - Solo se muestran alineaciones y estadisticas cuando existan datos verificables.
+   - La web todavia no esta subida a tu cuenta de GitHub.
+
+Lea README.md para detalles y fuentes documentadas.
+
+NOVEDAD 0.3:
+- En BUSCAR encontraras las fotos de Messi, Mbappe, Lamine Yamal y Haaland, con autor y licencia.
+- En cualquier PARTIDO, Alineaciones muestra el campo tactico. El once confirmado y su formacion solo se dibujan si la fuente externa devuelve los datos completos.
+- En fichas de JUGADOR y EQUIPO hay enlaces a Transfermarkt (consulta externa, no extraccion de datos).
+- Las estadisticas de temporada aparecen vacias si no se tiene una fuente autorizada; no significa que el jugador tenga cero goles.
